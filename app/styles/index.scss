@@ -16,12 +16,18 @@ body {
 
 :root {
   --gradient-opacity: 0.8;
-  --primary-color: rgba(158, 117, 240, var(--gradient-opacity));
-  --secondary-color: rgba(138, 43, 226, var(--gradient-opacity));
-  --accent-color: rgba(128, 59, 239, var(--gradient-opacity));
-  // --primary-color: rgba(147, 112, 219, var(--gradient-opacity));
-  // --secondary-color: rgba(138, 43, 226, var(--gradient-opacity));
-  // --accent-color: rgba(180, 170, 220, var(--gradient-opacity));
+  --primary-color: rgba(34, 211, 238, var(--gradient-opacity)); /* Vibrant blue */
+  --secondary-color: rgba(74, 222, 128, var(--gradient-opacity)); /* Electric green */
+  --accent-color: rgba(168, 85, 247, var(--gradient-opacity)); /* Subtle purple */
+}
+
+/* Frosted glass utility */
+.frosted {
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  background-color: rgba(17, 24, 43, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15), 0 4px 12px rgba(34, 211, 238, 0.12);
 }
 
 .modern-scrollbar {
