@@ -1,35 +1,64 @@
 # UnQBase
 
-## Introduction
-UnQBase is a modern, AI-powered full-stack web development environment. It blends a chat-first developer experience with code-aware editing, previews, and deployment helpers—helping you build faster and smarter. This project is maintained by Sandeep Gaddam.
+Welcome to UnQBase, an AI-powered, full-stack web development environment. This project is maintained by Sandeep Gaddam.
+
+---
 
 ## Features
-- Chat-first workflow with context-aware coding assistance
-- Local and cloud model providers with easy switching
-- Git repo import and project scaffolding templates
-- Integrated terminal, live previews, and helpful diffs
-- Deploy-ready: Docker support and desktop builds via Electron
 
-## Installation
-1. Install pnpm
-   ```bash
-   npm install -g pnpm
-   ```
-2. Install dependencies
-   ```bash
-   pnpm install
-   ```
-3. Start the dev server
-   ```bash
-   pnpm run dev
-   ```
+- **AI-Powered Development**: Build, test, and iterate on your web applications with a modern, chat-first UX.
+- **Multi-Provider Support**: Seamlessly switch between local and cloud LLM providers.
+- **Project Scaffolding**: Import Git repositories or start from popular templates.
+- **Integrated Workbench**: A complete environment with a code editor, preview, and terminal.
 
-## Usage
-- Open the app at http://localhost:5173
-- Add your provider API keys in Settings
-- Start a chat and iterate on your project with UnQBase
+---
 
-## Contributing
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+## ? Local Installation & Setup
 
-<!-- TODO: Add new UnQBase screenshots -->
+### 1. Clone the Repository
+git clone https://github.com/Sandeepgaddam5432/UnQBase.git
+cd UnQBase
+
+### 2. Install Dependencies
+This project uses pnpm as the package manager.
+pnpm install
+
+### 3. Configure Environment Variables
+Rename `.env.example` to `.env.local` and add your provider API keys.
+mv .env.example .env.local
+
+### 4. Run the Development Server
+pnpm run dev
+
+---
+
+## ? Docker Deployment
+
+### Development
+To build and run the development container with hot-reloading:
+docker compose --profile development up --build
+
+### Production
+To build and run a production-ready container:
+docker compose --profile production up --build
+
+---
+
+## ?? Deploy to Cloudflare Pages
+
+This project is optimized for Cloudflare Pages.
+
+### 1. Build the Project
+pnpm run build
+
+### 2. Deploy via Wrangler
+Ensure you have Wrangler CLI installed and configured. Then run:
+pnpm run deploy
+
+---
+
+## ? Contributing
+
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+
+---
