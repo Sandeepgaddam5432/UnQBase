@@ -2,107 +2,107 @@
 :root,
 :root[data-theme='light'] {
   /* UnQBase Light Theme (aligned with dark branding but slightly brighter accents) */
-  --bolt-elements-borderColor: #374151;
-  --bolt-elements-borderColorActive: #22D3EE;
+  --unqbase-elements-borderColor: #374151;
+  --unqbase-elements-borderColorActive: #22D3EE;
 
-  --bolt-elements-bg-depth-1: #11182B;
-  --bolt-elements-bg-depth-2: #141c31;
-  --bolt-elements-bg-depth-3: #1a2440;
-  --bolt-elements-bg-depth-4: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-bg-depth-1: #11182B;
+  --unqbase-elements-bg-depth-2: #141c31;
+  --unqbase-elements-bg-depth-3: #1a2440;
+  --unqbase-elements-bg-depth-4: rgba(255, 255, 255, 0.06);
 
-  --bolt-elements-textPrimary: #FFFFFF;
-  --bolt-elements-textSecondary: #d1d5db;
-  --bolt-elements-textTertiary: #9ca3af;
+  --unqbase-elements-textPrimary: #FFFFFF;
+  --unqbase-elements-textSecondary: #d1d5db;
+  --unqbase-elements-textTertiary: #9ca3af;
 
-  --bolt-elements-code-background: #1f2937;
-  --bolt-elements-code-text: #FFFFFF;
+  --unqbase-elements-code-background: #1f2937;
+  --unqbase-elements-code-text: #FFFFFF;
 
-  --bolt-elements-button-primary-background: rgba(34, 211, 238, 0.12);
-  --bolt-elements-button-primary-backgroundHover: rgba(34, 211, 238, 0.2);
-  --bolt-elements-button-primary-text: #22D3EE;
+  --unqbase-elements-button-primary-background: rgba(34, 211, 238, 0.12);
+  --unqbase-elements-button-primary-backgroundHover: rgba(34, 211, 238, 0.2);
+  --unqbase-elements-button-primary-text: #22D3EE;
 
-  --bolt-elements-button-secondary-background: rgba(255, 255, 255, 0.06);
-  --bolt-elements-button-secondary-backgroundHover: rgba(255, 255, 255, 0.12);
-  --bolt-elements-button-secondary-text: #FFFFFF;
+  --unqbase-elements-button-secondary-background: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-button-secondary-backgroundHover: rgba(255, 255, 255, 0.12);
+  --unqbase-elements-button-secondary-text: #FFFFFF;
 
-  --bolt-elements-button-danger-background: rgba(239, 68, 68, 0.12);
-  --bolt-elements-button-danger-backgroundHover: rgba(239, 68, 68, 0.2);
-  --bolt-elements-button-danger-text: #ef4444;
+  --unqbase-elements-button-danger-background: rgba(239, 68, 68, 0.12);
+  --unqbase-elements-button-danger-backgroundHover: rgba(239, 68, 68, 0.2);
+  --unqbase-elements-button-danger-text: #ef4444;
 
-  --bolt-elements-item-contentDefault: rgba(255, 255, 255, 0.6);
-  --bolt-elements-item-contentActive: #FFFFFF;
-  --bolt-elements-item-contentAccent: #22D3EE;
-  --bolt-elements-item-contentDanger: #ef4444;
-  --bolt-elements-item-backgroundDefault: rgba(0, 0, 0, 0);
-  --bolt-elements-item-backgroundActive: rgba(255, 255, 255, 0.06);
-  --bolt-elements-item-backgroundAccent: rgba(34, 211, 238, 0.1);
-  --bolt-elements-item-backgroundDanger: rgba(239, 68, 68, 0.1);
+  --unqbase-elements-item-contentDefault: rgba(255, 255, 255, 0.6);
+  --unqbase-elements-item-contentActive: #FFFFFF;
+  --unqbase-elements-item-contentAccent: #22D3EE;
+  --unqbase-elements-item-contentDanger: #ef4444;
+  --unqbase-elements-item-backgroundDefault: rgba(0, 0, 0, 0);
+  --unqbase-elements-item-backgroundActive: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-item-backgroundAccent: rgba(34, 211, 238, 0.1);
+  --unqbase-elements-item-backgroundDanger: rgba(239, 68, 68, 0.1);
 
-  --bolt-elements-loader-background: rgba(255, 255, 255, 0.08);
-  --bolt-elements-loader-progress: #22D3EE;
+  --unqbase-elements-loader-background: rgba(255, 255, 255, 0.08);
+  --unqbase-elements-loader-progress: #22D3EE;
 
-  --bolt-elements-artifacts-background: #11182B;
-  --bolt-elements-artifacts-backgroundHover: rgba(255, 255, 255, 0.04);
-  --bolt-elements-artifacts-borderColor: var(--bolt-elements-borderColor);
-  --bolt-elements-artifacts-inlineCode-background: #1f2937;
-  --bolt-elements-artifacts-inlineCode-text: var(--bolt-elements-textPrimary);
+  --unqbase-elements-artifacts-background: #11182B;
+  --unqbase-elements-artifacts-backgroundHover: rgba(255, 255, 255, 0.04);
+  --unqbase-elements-artifacts-borderColor: var(--unqbase-elements-borderColor);
+  --unqbase-elements-artifacts-inlineCode-background: #1f2937;
+  --unqbase-elements-artifacts-inlineCode-text: var(--unqbase-elements-textPrimary);
 
-  --bolt-elements-actions-background: #11182B;
-  --bolt-elements-actions-code-background: #1f2937;
+  --unqbase-elements-actions-background: #11182B;
+  --unqbase-elements-actions-code-background: #1f2937;
 
-  --bolt-elements-messages-background: #0f172a;
-  --bolt-elements-messages-linkColor: #22D3EE;
-  --bolt-elements-messages-code-background: #0b1223;
-  --bolt-elements-messages-inlineCode-background: #111827;
-  --bolt-elements-messages-inlineCode-text: #e5e7eb;
+  --unqbase-elements-messages-background: #0f172a;
+  --unqbase-elements-messages-linkColor: #22D3EE;
+  --unqbase-elements-messages-code-background: #0b1223;
+  --unqbase-elements-messages-inlineCode-background: #111827;
+  --unqbase-elements-messages-inlineCode-text: #e5e7eb;
 
-  --bolt-elements-icon-success: #4ADE80;
-  --bolt-elements-icon-error: #ef4444;
-  --bolt-elements-icon-primary: #FFFFFF;
-  --bolt-elements-icon-secondary: #d1d5db;
-  --bolt-elements-icon-tertiary: #9ca3af;
+  --unqbase-elements-icon-success: #4ADE80;
+  --unqbase-elements-icon-error: #ef4444;
+  --unqbase-elements-icon-primary: #FFFFFF;
+  --unqbase-elements-icon-secondary: #d1d5db;
+  --unqbase-elements-icon-tertiary: #9ca3af;
 
-  --bolt-elements-dividerColor: #374151;
+  --unqbase-elements-dividerColor: #374151;
 
-  --bolt-elements-prompt-background: rgba(255, 255, 255, 0.08);
+  --unqbase-elements-prompt-background: rgba(255, 255, 255, 0.08);
 
-  --bolt-elements-sidebar-dropdownShadow: rgba(0, 0, 0, 0.2);
-  --bolt-elements-sidebar-buttonBackgroundDefault: rgba(34, 211, 238, 0.12);
-  --bolt-elements-sidebar-buttonBackgroundHover: rgba(168, 85, 247, 0.24);
-  --bolt-elements-sidebar-buttonText: #22D3EE;
+  --unqbase-elements-sidebar-dropdownShadow: rgba(0, 0, 0, 0.2);
+  --unqbase-elements-sidebar-buttonBackgroundDefault: rgba(34, 211, 238, 0.12);
+  --unqbase-elements-sidebar-buttonBackgroundHover: rgba(168, 85, 247, 0.24);
+  --unqbase-elements-sidebar-buttonText: #22D3EE;
 
-  --bolt-elements-preview-addressBar-background: #11182B;
-  --bolt-elements-preview-addressBar-backgroundHover: rgba(255, 255, 255, 0.06);
-  --bolt-elements-preview-addressBar-backgroundActive: #11182B;
-  --bolt-elements-preview-addressBar-text: var(--bolt-elements-textSecondary);
-  --bolt-elements-preview-addressBar-textActive: var(--bolt-elements-textPrimary);
+  --unqbase-elements-preview-addressBar-background: #11182B;
+  --unqbase-elements-preview-addressBar-backgroundHover: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-preview-addressBar-backgroundActive: #11182B;
+  --unqbase-elements-preview-addressBar-text: var(--unqbase-elements-textSecondary);
+  --unqbase-elements-preview-addressBar-textActive: var(--unqbase-elements-textPrimary);
 
-  --bolt-elements-terminals-background: #11182B;
-  --bolt-elements-terminals-buttonBackground: var(--bolt-elements-bg-depth-3);
+  --unqbase-elements-terminals-background: #11182B;
+  --unqbase-elements-terminals-buttonBackground: var(--unqbase-elements-bg-depth-3);
 
-  --bolt-elements-cta-background: rgba(255, 255, 255, 0.06);
-  --bolt-elements-cta-text: #FFFFFF;
+  --unqbase-elements-cta-background: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-cta-text: #FFFFFF;
 
   /* Terminal Colors */
-  --bolt-terminal-background: var(--bolt-elements-terminals-background);
-  --bolt-terminal-foreground: #e5e7eb;
-  --bolt-terminal-selection-background: #a855f733;
-  --bolt-terminal-black: #000000;
-  --bolt-terminal-red: #ef4444;
-  --bolt-terminal-green: #4ADE80;
-  --bolt-terminal-yellow: #f59e0b;
-  --bolt-terminal-blue: #22D3EE;
-  --bolt-terminal-magenta: #a855f7;
-  --bolt-terminal-cyan: #22D3EE;
-  --bolt-terminal-white: #f1f5f9;
-  --bolt-terminal-brightBlack: #6b7280;
-  --bolt-terminal-brightRed: #ef4444;
-  --bolt-terminal-brightGreen: #4ADE80;
-  --bolt-terminal-brightYellow: #f59e0b;
-  --bolt-terminal-brightBlue: #22D3EE;
-  --bolt-terminal-brightMagenta: #a855f7;
-  --bolt-terminal-brightCyan: #22D3EE;
-  --bolt-terminal-brightWhite: #e5e7eb;
+  --UnQBase-terminal-background: var(--unqbase-elements-terminals-background);
+  --UnQBase-terminal-foreground: #e5e7eb;
+  --UnQBase-terminal-selection-background: #a855f733;
+  --UnQBase-terminal-black: #000000;
+  --UnQBase-terminal-red: #ef4444;
+  --UnQBase-terminal-green: #4ADE80;
+  --UnQBase-terminal-yellow: #f59e0b;
+  --UnQBase-terminal-blue: #22D3EE;
+  --UnQBase-terminal-magenta: #a855f7;
+  --UnQBase-terminal-cyan: #22D3EE;
+  --UnQBase-terminal-white: #f1f5f9;
+  --UnQBase-terminal-brightBlack: #6b7280;
+  --UnQBase-terminal-brightRed: #ef4444;
+  --UnQBase-terminal-brightGreen: #4ADE80;
+  --UnQBase-terminal-brightYellow: #f59e0b;
+  --UnQBase-terminal-brightBlue: #22D3EE;
+  --UnQBase-terminal-brightMagenta: #a855f7;
+  --UnQBase-terminal-brightCyan: #22D3EE;
+  --UnQBase-terminal-brightWhite: #e5e7eb;
   --modern-scrollbar-thumb-background: rgba(100, 100, 100, 0.3);
   --modern-scrollbar-thumb-backgroundHover: rgba(74, 74, 74, 0.8);
 }
@@ -111,107 +111,107 @@
 :root,
 :root[data-theme='dark'] {
   /* UnQBase Dark Theme */
-  --bolt-elements-borderColor: #374151;
-  --bolt-elements-borderColorActive: #22D3EE;
+  --unqbase-elements-borderColor: #374151;
+  --unqbase-elements-borderColorActive: #22D3EE;
 
-  --bolt-elements-bg-depth-1: #11182B;
-  --bolt-elements-bg-depth-2: #141c31;
-  --bolt-elements-bg-depth-3: #1a2440;
-  --bolt-elements-bg-depth-4: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-bg-depth-1: #11182B;
+  --unqbase-elements-bg-depth-2: #141c31;
+  --unqbase-elements-bg-depth-3: #1a2440;
+  --unqbase-elements-bg-depth-4: rgba(255, 255, 255, 0.06);
 
-  --bolt-elements-textPrimary: #FFFFFF;
-  --bolt-elements-textSecondary: #d1d5db;
-  --bolt-elements-textTertiary: #9ca3af;
+  --unqbase-elements-textPrimary: #FFFFFF;
+  --unqbase-elements-textSecondary: #d1d5db;
+  --unqbase-elements-textTertiary: #9ca3af;
 
-  --bolt-elements-code-background: #0b1223;
-  --bolt-elements-code-text: #FFFFFF;
+  --unqbase-elements-code-background: #0b1223;
+  --unqbase-elements-code-text: #FFFFFF;
 
-  --bolt-elements-button-primary-background: rgba(34, 211, 238, 0.12);
-  --bolt-elements-button-primary-backgroundHover: rgba(168, 85, 247, 0.24);
-  --bolt-elements-button-primary-text: #22D3EE;
+  --unqbase-elements-button-primary-background: rgba(34, 211, 238, 0.12);
+  --unqbase-elements-button-primary-backgroundHover: rgba(168, 85, 247, 0.24);
+  --unqbase-elements-button-primary-text: #22D3EE;
 
-  --bolt-elements-button-secondary-background: rgba(255, 255, 255, 0.06);
-  --bolt-elements-button-secondary-backgroundHover: rgba(255, 255, 255, 0.12);
-  --bolt-elements-button-secondary-text: #FFFFFF;
+  --unqbase-elements-button-secondary-background: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-button-secondary-backgroundHover: rgba(255, 255, 255, 0.12);
+  --unqbase-elements-button-secondary-text: #FFFFFF;
 
-  --bolt-elements-button-danger-background: rgba(239, 68, 68, 0.12);
-  --bolt-elements-button-danger-backgroundHover: rgba(239, 68, 68, 0.2);
-  --bolt-elements-button-danger-text: #ef4444;
+  --unqbase-elements-button-danger-background: rgba(239, 68, 68, 0.12);
+  --unqbase-elements-button-danger-backgroundHover: rgba(239, 68, 68, 0.2);
+  --unqbase-elements-button-danger-text: #ef4444;
 
-  --bolt-elements-item-contentDefault: rgba(255, 255, 255, 0.6);
-  --bolt-elements-item-contentActive: #FFFFFF;
-  --bolt-elements-item-contentAccent: #22D3EE;
-  --bolt-elements-item-contentDanger: #ef4444;
-  --bolt-elements-item-backgroundDefault: rgba(255, 255, 255, 0);
-  --bolt-elements-item-backgroundActive: rgba(255, 255, 255, 0.06);
-  --bolt-elements-item-backgroundAccent: rgba(34, 211, 238, 0.1);
-  --bolt-elements-item-backgroundDanger: rgba(239, 68, 68, 0.1);
+  --unqbase-elements-item-contentDefault: rgba(255, 255, 255, 0.6);
+  --unqbase-elements-item-contentActive: #FFFFFF;
+  --unqbase-elements-item-contentAccent: #22D3EE;
+  --unqbase-elements-item-contentDanger: #ef4444;
+  --unqbase-elements-item-backgroundDefault: rgba(255, 255, 255, 0);
+  --unqbase-elements-item-backgroundActive: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-item-backgroundAccent: rgba(34, 211, 238, 0.1);
+  --unqbase-elements-item-backgroundDanger: rgba(239, 68, 68, 0.1);
 
-  --bolt-elements-loader-background: rgba(255, 255, 255, 0.08);
-  --bolt-elements-loader-progress: #22D3EE;
+  --unqbase-elements-loader-background: rgba(255, 255, 255, 0.08);
+  --unqbase-elements-loader-progress: #22D3EE;
 
-  --bolt-elements-artifacts-background: #0b1223;
-  --bolt-elements-artifacts-backgroundHover: rgba(255, 255, 255, 0.06);
-  --bolt-elements-artifacts-borderColor: var(--bolt-elements-borderColor);
-  --bolt-elements-artifacts-inlineCode-background: #0b1223;
-  --bolt-elements-artifacts-inlineCode-text: #FFFFFF;
+  --unqbase-elements-artifacts-background: #0b1223;
+  --unqbase-elements-artifacts-backgroundHover: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-artifacts-borderColor: var(--unqbase-elements-borderColor);
+  --unqbase-elements-artifacts-inlineCode-background: #0b1223;
+  --unqbase-elements-artifacts-inlineCode-text: #FFFFFF;
 
-  --bolt-elements-actions-background: #0b1223;
-  --bolt-elements-actions-code-background: #0b1223;
+  --unqbase-elements-actions-background: #0b1223;
+  --unqbase-elements-actions-code-background: #0b1223;
 
-  --bolt-elements-messages-background: #0b1223;
-  --bolt-elements-messages-linkColor: #22D3EE;
-  --bolt-elements-messages-code-background: #0b1223;
-  --bolt-elements-messages-inlineCode-background: #111827;
-  --bolt-elements-messages-inlineCode-text: var(--bolt-elements-textPrimary);
+  --unqbase-elements-messages-background: #0b1223;
+  --unqbase-elements-messages-linkColor: #22D3EE;
+  --unqbase-elements-messages-code-background: #0b1223;
+  --unqbase-elements-messages-inlineCode-background: #111827;
+  --unqbase-elements-messages-inlineCode-text: var(--unqbase-elements-textPrimary);
 
-  --bolt-elements-icon-success: #4ADE80;
-  --bolt-elements-icon-error: #ef4444;
-  --bolt-elements-icon-primary: #FFFFFF;
-  --bolt-elements-icon-secondary: #d1d5db;
-  --bolt-elements-icon-tertiary: #9ca3af;
+  --unqbase-elements-icon-success: #4ADE80;
+  --unqbase-elements-icon-error: #ef4444;
+  --unqbase-elements-icon-primary: #FFFFFF;
+  --unqbase-elements-icon-secondary: #d1d5db;
+  --unqbase-elements-icon-tertiary: #9ca3af;
 
-  --bolt-elements-dividerColor: #374151;
+  --unqbase-elements-dividerColor: #374151;
 
-  --bolt-elements-prompt-background: rgba(168, 85, 247, 0.08);
+  --unqbase-elements-prompt-background: rgba(168, 85, 247, 0.08);
 
-  --bolt-elements-sidebar-dropdownShadow: rgba(0, 0, 0, 0.35);
-  --bolt-elements-sidebar-buttonBackgroundDefault: rgba(34, 211, 238, 0.12);
-  --bolt-elements-sidebar-buttonBackgroundHover: rgba(168, 85, 247, 0.24);
-  --bolt-elements-sidebar-buttonText: #22D3EE;
+  --unqbase-elements-sidebar-dropdownShadow: rgba(0, 0, 0, 0.35);
+  --unqbase-elements-sidebar-buttonBackgroundDefault: rgba(34, 211, 238, 0.12);
+  --unqbase-elements-sidebar-buttonBackgroundHover: rgba(168, 85, 247, 0.24);
+  --unqbase-elements-sidebar-buttonText: #22D3EE;
 
-  --bolt-elements-preview-addressBar-background: var(--bolt-elements-bg-depth-1);
-  --bolt-elements-preview-addressBar-backgroundHover: rgba(255, 255, 255, 0.06);
-  --bolt-elements-preview-addressBar-backgroundActive: var(--bolt-elements-bg-depth-1);
-  --bolt-elements-preview-addressBar-text: var(--bolt-elements-textSecondary);
-  --bolt-elements-preview-addressBar-textActive: var(--bolt-elements-textPrimary);
+  --unqbase-elements-preview-addressBar-background: var(--unqbase-elements-bg-depth-1);
+  --unqbase-elements-preview-addressBar-backgroundHover: rgba(255, 255, 255, 0.06);
+  --unqbase-elements-preview-addressBar-backgroundActive: var(--unqbase-elements-bg-depth-1);
+  --unqbase-elements-preview-addressBar-text: var(--unqbase-elements-textSecondary);
+  --unqbase-elements-preview-addressBar-textActive: var(--unqbase-elements-textPrimary);
 
-  --bolt-elements-terminals-background: var(--bolt-elements-bg-depth-1);
-  --bolt-elements-terminals-buttonBackground: var(--bolt-elements-bg-depth-3);
+  --unqbase-elements-terminals-background: var(--unqbase-elements-bg-depth-1);
+  --unqbase-elements-terminals-buttonBackground: var(--unqbase-elements-bg-depth-3);
 
-  --bolt-elements-cta-background: rgba(255, 255, 255, 0.08);
-  --bolt-elements-cta-text: #FFFFFF;
+  --unqbase-elements-cta-background: rgba(255, 255, 255, 0.08);
+  --unqbase-elements-cta-text: #FFFFFF;
 
   /* Terminal Colors */
-  --bolt-terminal-background: var(--bolt-elements-terminals-background);
-  --bolt-terminal-foreground: #e5e7eb;
-  --bolt-terminal-selection-background: #a855f733;
-  --bolt-terminal-black: #000000;
-  --bolt-terminal-red: #ef4444;
-  --bolt-terminal-green: #4ADE80;
-  --bolt-terminal-yellow: #f59e0b;
-  --bolt-terminal-blue: #22D3EE;
-  --bolt-terminal-magenta: #a855f7;
-  --bolt-terminal-cyan: #22D3EE;
-  --bolt-terminal-white: #f1f5f9;
-  --bolt-terminal-brightBlack: #6b7280;
-  --bolt-terminal-brightRed: #ef4444;
-  --bolt-terminal-brightGreen: #4ADE80;
-  --bolt-terminal-brightYellow: #f59e0b;
-  --bolt-terminal-brightBlue: #22D3EE;
-  --bolt-terminal-brightMagenta: #a855f7;
-  --bolt-terminal-brightCyan: #22D3EE;
-  --bolt-terminal-brightWhite: #e5e7eb;
+  --UnQBase-terminal-background: var(--unqbase-elements-terminals-background);
+  --UnQBase-terminal-foreground: #e5e7eb;
+  --UnQBase-terminal-selection-background: #a855f733;
+  --UnQBase-terminal-black: #000000;
+  --UnQBase-terminal-red: #ef4444;
+  --UnQBase-terminal-green: #4ADE80;
+  --UnQBase-terminal-yellow: #f59e0b;
+  --UnQBase-terminal-blue: #22D3EE;
+  --UnQBase-terminal-magenta: #a855f7;
+  --UnQBase-terminal-cyan: #22D3EE;
+  --UnQBase-terminal-white: #f1f5f9;
+  --UnQBase-terminal-brightBlack: #6b7280;
+  --UnQBase-terminal-brightRed: #ef4444;
+  --UnQBase-terminal-brightGreen: #4ADE80;
+  --UnQBase-terminal-brightYellow: #f59e0b;
+  --UnQBase-terminal-brightBlue: #22D3EE;
+  --UnQBase-terminal-brightMagenta: #a855f7;
+  --UnQBase-terminal-brightCyan: #22D3EE;
+  --UnQBase-terminal-brightWhite: #e5e7eb;
   --modern-scrollbar-thumb-background: rgba(100, 100, 100, 0.3);
   --modern-scrollbar-thumb-backgroundHover: rgba(10, 10, 10, 0.8);
 }
@@ -230,28 +230,28 @@
   --workbench-left: calc(100% - var(--workbench-width));
 
   /* Toasts */
-  --toastify-color-progress-success: var(--bolt-elements-icon-success);
-  --toastify-color-progress-error: var(--bolt-elements-icon-error);
+  --toastify-color-progress-success: var(--unqbase-elements-icon-success);
+  --toastify-color-progress-error: var(--unqbase-elements-icon-error);
 
   /* Terminal */
-  --bolt-elements-terminal-backgroundColor: var(--bolt-terminal-background);
-  --bolt-elements-terminal-textColor: var(--bolt-terminal-foreground);
-  --bolt-elements-terminal-cursorColor: var(--bolt-terminal-foreground);
-  --bolt-elements-terminal-selection-backgroundColor: var(--bolt-terminal-selection-background);
-  --bolt-elements-terminal-color-black: var(--bolt-terminal-black);
-  --bolt-elements-terminal-color-red: var(--bolt-terminal-red);
-  --bolt-elements-terminal-color-green: var(--bolt-terminal-green);
-  --bolt-elements-terminal-color-yellow: var(--bolt-terminal-yellow);
-  --bolt-elements-terminal-color-blue: var(--bolt-terminal-blue);
-  --bolt-elements-terminal-color-magenta: var(--bolt-terminal-magenta);
-  --bolt-elements-terminal-color-cyan: var(--bolt-terminal-cyan);
-  --bolt-elements-terminal-color-white: var(--bolt-terminal-white);
-  --bolt-elements-terminal-color-brightBlack: var(--bolt-terminal-brightBlack);
-  --bolt-elements-terminal-color-brightRed: var(--bolt-terminal-brightRed);
-  --bolt-elements-terminal-color-brightGreen: var(--bolt-terminal-brightGreen);
-  --bolt-elements-terminal-color-brightYellow: var(--bolt-terminal-brightYellow);
-  --bolt-elements-terminal-color-brightBlue: var(--bolt-terminal-brightBlue);
-  --bolt-elements-terminal-color-brightMagenta: var(--bolt-terminal-brightMagenta);
-  --bolt-elements-terminal-color-brightCyan: var(--bolt-terminal-brightCyan);
-  --bolt-elements-terminal-color-brightWhite: var(--bolt-terminal-brightWhite);
+  --unqbase-elements-terminal-backgroundColor: var(--unqbase-terminal-background);
+  --unqbase-elements-terminal-textColor: var(--unqbase-terminal-foreground);
+  --unqbase-elements-terminal-cursorColor: var(--unqbase-terminal-foreground);
+  --unqbase-elements-terminal-selection-backgroundColor: var(--unqbase-terminal-selection-background);
+  --unqbase-elements-terminal-color-black: var(--unqbase-terminal-black);
+  --unqbase-elements-terminal-color-red: var(--unqbase-terminal-red);
+  --unqbase-elements-terminal-color-green: var(--unqbase-terminal-green);
+  --unqbase-elements-terminal-color-yellow: var(--unqbase-terminal-yellow);
+  --unqbase-elements-terminal-color-blue: var(--unqbase-terminal-blue);
+  --unqbase-elements-terminal-color-magenta: var(--unqbase-terminal-magenta);
+  --unqbase-elements-terminal-color-cyan: var(--unqbase-terminal-cyan);
+  --unqbase-elements-terminal-color-white: var(--unqbase-terminal-white);
+  --unqbase-elements-terminal-color-brightBlack: var(--unqbase-terminal-brightBlack);
+  --unqbase-elements-terminal-color-brightRed: var(--unqbase-terminal-brightRed);
+  --unqbase-elements-terminal-color-brightGreen: var(--unqbase-terminal-brightGreen);
+  --unqbase-elements-terminal-color-brightYellow: var(--unqbase-terminal-brightYellow);
+  --unqbase-elements-terminal-color-brightBlue: var(--unqbase-terminal-brightBlue);
+  --unqbase-elements-terminal-color-brightMagenta: var(--unqbase-terminal-brightMagenta);
+  --unqbase-elements-terminal-color-brightCyan: var(--unqbase-terminal-brightCyan);
+  --unqbase-elements-terminal-color-brightWhite: var(--unqbase-terminal-brightWhite);
 }

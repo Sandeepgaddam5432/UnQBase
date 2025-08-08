@@ -127,8 +127,8 @@ export const TerminalTabs = memo(() => {
       }}
     >
       <div className="h-full">
-        <div className="bg-bolt-elements-terminals-background h-full flex flex-col">
-          <div className="flex items-center bg-bolt-elements-background-depth-2 border-y border-bolt-elements-borderColor gap-1.5 min-h-[34px] p-2">
+        <div className="bg-unqbase-elements-terminals-background h-full flex flex-col">
+          <div className="flex items-center bg-unqbase-elements-background-depth-2 border-y border-unqbase-elements-borderColor gap-1.5 min-h-[34px] p-2">
             {Array.from({ length: terminalCount + 1 }, (_, index) => {
               const isActive = activeTerminal === index;
 
@@ -140,9 +140,9 @@ export const TerminalTabs = memo(() => {
                       className={classNames(
                         'flex items-center text-sm cursor-pointer gap-1.5 px-3 py-2 h-full whitespace-nowrap rounded-full',
                         {
-                          'bg-bolt-elements-terminals-buttonBackground text-bolt-elements-textSecondary hover:text-bolt-elements-textPrimary':
+                          'bg-unqbase-elements-terminals-buttonBackground text-unqbase-elements-textSecondary hover:text-unqbase-elements-textPrimary':
                             isActive,
-                          'bg-bolt-elements-background-depth-2 text-bolt-elements-textSecondary hover:bg-bolt-elements-terminals-buttonBackground':
+                          'bg-unqbase-elements-background-depth-2 text-unqbase-elements-textSecondary hover:bg-unqbase-elements-terminals-buttonBackground':
                             !isActive,
                         },
                       )}
@@ -158,8 +158,8 @@ export const TerminalTabs = memo(() => {
                         className={classNames(
                           'flex items-center text-sm cursor-pointer gap-1.5 px-3 py-2 h-full whitespace-nowrap rounded-full',
                           {
-                            'bg-bolt-elements-terminals-buttonBackground text-bolt-elements-textPrimary': isActive,
-                            'bg-bolt-elements-background-depth-2 text-bolt-elements-textSecondary hover:bg-bolt-elements-terminals-buttonBackground':
+                            'bg-unqbase-elements-terminals-buttonBackground text-unqbase-elements-textPrimary': isActive,
+                            'bg-unqbase-elements-background-depth-2 text-unqbase-elements-textSecondary hover:bg-unqbase-elements-terminals-buttonBackground':
                               !isActive,
                           },
                         )}
@@ -168,7 +168,7 @@ export const TerminalTabs = memo(() => {
                         <div className="i-ph:terminal-window-duotone text-lg" />
                         Terminal {terminalCount > 1 && index}
                         <button
-                          className="bg-transparent text-bolt-elements-textTertiary hover:text-bolt-elements-textPrimary hover:bg-transparent rounded"
+                          className="bg-transparent text-unqbase-elements-textTertiary hover:text-unqbase-elements-textPrimary hover:bg-transparent rounded"
                           onClick={(e) => {
                             e.stopPropagation();
                             closeTerminal(index);
